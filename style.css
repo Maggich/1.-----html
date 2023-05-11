@@ -118,6 +118,24 @@ section#main-container h3 {
     background-color: #1B1B1B;
   }
 
+  .my-button {
+    width: 667px;
+    height: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .my-button:hover {
+    background-color: #2E8B57;
+  }
+
 
 header#site-header {
     width: 100%;
